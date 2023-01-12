@@ -4,7 +4,12 @@ Screenshot: ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%
 Remotely Connecting: First find your account name and change your passwords through this link: https://sdacs.ucsd.edu/~icc/index.php
 After you successfully reset your password, you need to wait a few minutes for it to take effect.
 Then open terminal in your visual code studio, and type ssh  <your username>@ieng6.ucsd.edu
-Screenshot: ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.19.29.png?raw=true)
+Screenshot: 
+ 
+![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.19.29.png?raw=true)
+![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.11.28.png?raw=true)
+ ![Image](https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg)
+ 
 After you type in your password, it will show:
  ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.20.11.png?raw=true)
 That means you have successfully connected remotely
