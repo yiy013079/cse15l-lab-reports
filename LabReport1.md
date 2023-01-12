@@ -22,7 +22,6 @@ ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, wh
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 Something like this will show:
- ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.23.30.png?raw=true)
 
 <img width="787" alt="截屏2023-01-12 上午11 23 30" src="https://user-images.githubusercontent.com/122562034/212178327-5bb2f402-e842-4565-8dba-e7a7a2bad843.png">
 
