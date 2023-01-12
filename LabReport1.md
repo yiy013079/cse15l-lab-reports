@@ -1,5 +1,5 @@
 Installing VScode: Go to Visual Code studio website  https://code.visualstudio.com/, and choose the right version for your computer system. 
-Screenshot: ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.11.28.png)
+Screenshot: ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/16daa6e34b8ad23f317b0f69f7157f73ebd66d13/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.11.28.png)
 
 Remotely Connecting: First find your account name and change your passwords through this link: https://sdacs.ucsd.edu/~icc/index.php
 After you successfully reset your password, you need to wait a few minutes for it to take effect.
