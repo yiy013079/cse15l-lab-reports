@@ -3,10 +3,10 @@ Installing VScode: Go to Visual Code studio website [https://code.visualstudio.c
 Screenshot: ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.11.28.png?raw=true)
 
 Remotely Connecting: First find your account name and change your passwords through this link: 
-[I'm an inline-style link](https://sdacs.ucsd.edu/~icc/index.php) 
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) 
 After you successfully reset your password, you need to wait a few minutes for it to take effect.
 Then open terminal in your visual code studio, and type
-[I'm an inline-style link](ssh  <your username>@ieng6.ucsd.edu) 
+[ssh  <your username>@ieng6.ucsd.edu](ssh  <your username>@ieng6.ucsd.edu) 
 
 Screenshot: 
  
