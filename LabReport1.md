@@ -6,7 +6,7 @@ Remotely Connecting: First find your account name and change your passwords thro
 [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) 
 After you successfully reset your password, you need to wait a few minutes for it to take effect.
 Then open terminal in your visual code studio, and type
-[ssh  <your username>@ieng6.ucsd.edu](ssh  <your username>@ieng6.ucsd.edu) 
+[ssh <>@ieng.6.ucsd.edu] put your username in <>.
 
 Screenshot: 
  
