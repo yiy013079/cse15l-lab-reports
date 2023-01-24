@@ -1,4 +1,4 @@
-Installing VScode: Go to Visual Code studio website [I'm an inline-style link]( https://code.visualstudio.com/), and choose the right version for your computer system. If you use a mac computer, download the version of macOS Universal. If you use a windows computer, download Windows x64 version. The download button is on the left of the page and it's a blue button. 
+Installing VScode: Go to Visual Code studio website [https://code.visualstudio.com/]( https://code.visualstudio.com/), and choose the right version for your computer system. If you use a mac computer, download the version of macOS Universal. If you use a windows computer, download Windows x64 version. The download button is on the left of the page and it's a blue button. 
 
 Screenshot: ![Image](https://github.com/yiy013079/cse15l-lab-reports/blob/main/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8A%E5%8D%8811.11.28.png?raw=true)
 
