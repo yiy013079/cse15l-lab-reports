@@ -6,7 +6,7 @@ Remotely Connecting: First find your account name and change your passwords thro
 [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) 
 After you successfully reset your password, you need to wait a few minutes for it to take effect.
 Then open terminal in your visual code studio, and type
-[ssh <>@ieng.6.ucsd.edu](https://sdacs.ucsd.edu/~icc/index.php)  put your username in <>.
+[ssh <>@ieng.6.ucsd.edu](ssh<>@ieng.6.ucsd.edu)  use your username to replace <>.
 
 Screenshot: 
  
@@ -19,9 +19,8 @@ That means you have successfully connected remotely
 
 Trying Some Commands: If you want to try some commends. You can type in the following commend in the terminal:
 1. cd (allows you to move between directories)
-2. ls -lat 
-3. ls -a ( shows hidden files in addition to the visible ones)
-4. ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username. This is a commend to list the contents of another directory. 
+2. ls -a ( shows hidden files in addition to the visible ones)
+3. ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username. This is a commend to list the contents of another directory. 
 
  Something like this will show: 
 
