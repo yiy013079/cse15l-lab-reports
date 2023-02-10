@@ -126,5 +126,38 @@ can
 can
 can
 ```
+3. -rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern
+
+command:
+```
+grep -rl "watch them" written_2
+```
+output:
+```
+written_2/travel_guides/berlitz1/WhereToDublin.txt
+written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+```
+command:
+```
+grep -rl "he see" written_2/travel_guides
+```
+output:
+```
+written_2/travel_guides/berlitz1/HistoryJapan.txt
+written_2/travel_guides/berlitz1/HistoryIndia.txt
+written_2/travel_guides/berlitz1/HistoryItaly.txt
+written_2/travel_guides/berlitz1/HistoryMallorca.txt
+written_2/travel_guides/berlitz1/WhereToJapan.txt
+written_2/travel_guides/berlitz2/California-WhereToGo.txt
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt
+written_2/travel_guides/berlitz2/China-WhereToGo.txt
+written_2/travel_guides/berlitz2/Amsterdam-History.txt
+written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt
+written_2/travel_guides/berlitz2/Athens-Intro.txt
+written_2/travel_guides/berlitz2/Algarve-History.txt
+written_2/travel_guides/berlitz2/Cuba-History.txt
+```
+
+
 
 
