@@ -93,3 +93,38 @@ written_2/travel_guides/berlitz2/Vallarta-History.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:37
 ```
+2. -o: Output the matched parts of a matching line
+command:
+```
+grep -o "replete " written_2/travel_guides/berlitz2/*.txt
+```
+output:
+```
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt:replete 
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:replete 
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:replete 
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:replete 
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt:replete 
+```
+command:
+```
+grep -o "can" written_2/travel_guides/berlitz1/HistoryIndia.txt
+```
+output:
+```
+can
+can
+can
+can
+can
+can
+can
+can
+can
+can
+can
+can
+can
+```
+
+
