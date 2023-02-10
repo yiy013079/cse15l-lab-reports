@@ -2,7 +2,7 @@ I choose the command grep
 1. -c: Output count of matching lines
 command:
 ```
-grep -c "the" written_2/travel_guides/berlitz1/IntroItaly.txt
+grep -c "the" written_2/travel_guides/berlitz1/IntroItaly.txt. This is useful if you want to find how many times a string appear in a txt. 
 ```
 output:
 ```
@@ -93,7 +93,7 @@ written_2/travel_guides/berlitz2/Vallarta-History.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:37
 ```
-2. -o: Output the matched parts of a matching line
+2. -o: Output the matched parts of a matching line. This is useful because it directly returns the string you want to find. 
 command:
 ```
 grep -o "replete " written_2/travel_guides/berlitz2/*.txt
@@ -126,7 +126,7 @@ can
 can
 can
 ```
-3. -rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern
+3. -rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern. This is very useful because it can search the directory and txt, and return just the file name. 
 
 command:
 ```
@@ -158,6 +158,23 @@ written_2/travel_guides/berlitz2/Algarve-History.txt
 written_2/travel_guides/berlitz2/Cuba-History.txt
 ```
 
+4. -rn: Searches recursively through subdirectories and precede each matching line with a line number. This is useful because it tells you the line number, which makes it easier for you to locate the line of txt with matching string. 
 
-
-
+command:
+```
+grep -rn " Lucayans" written_2/
+```
+output:
+```
+written_2//travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
+written_2//travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+```
+command:
+```
+grep -rn " historic cities" written_2/travel_guides/berlitz1
+```
+output:
+```
+written_2/travel_guides/berlitz1/IntroMadrid.txt:13:        catch up to Spain’s more historic cities, including Seville, Toledo and
+written_2/travel_guides/berlitz1/IntroItaly.txt:81:        golden triangle of historic cities, the Assisi of St. Francis, the
+```
