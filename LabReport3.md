@@ -1,8 +1,10 @@
 I choose the command grep
 1. -c: Output count of matching lines
+This is useful if you want to find how many times a string appear in a txt. 
 command:
 ```
-grep -c "the" written_2/travel_guides/berlitz1/IntroItaly.txt. This is useful if you want to find how many times a string appear in a txt. 
+grep -c "the" written_2/travel_guides/berlitz1/IntroItaly.txt. 
+
 ```
 output:
 ```
@@ -93,7 +95,8 @@ written_2/travel_guides/berlitz2/Vallarta-History.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:37
 ```
-2. -o: Output the matched parts of a matching line. This is useful because it directly returns the string you want to find. 
+2. -o: Output the matched parts of a matching line. 
+This is useful because it directly returns the string you want to find. 
 command:
 ```
 grep -o "replete " written_2/travel_guides/berlitz2/*.txt
