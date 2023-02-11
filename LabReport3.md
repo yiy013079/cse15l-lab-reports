@@ -4,9 +4,9 @@ This is useful if you want to find how many times a string appear in a txt.
 command:
 ```
 grep -c "the" written_2/travel_guides/berlitz1/IntroItaly.txt. 
-
 ```
 output:
+
 ```
 116
 ```
