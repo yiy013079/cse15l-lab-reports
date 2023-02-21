@@ -111,25 +111,18 @@ written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt:replete
 ```
 command:
 ```
-grep -o "can" written_2/travel_guides/berlitz1/HistoryIndia.txt
+grep -o "Hong Kong.*" written_2/travel_guides/berlitz1/HandRHongKong.txt
 ```
 output:
 ```
-can
-can
-can
-can
-can
-can
-can
-can
-can
-can
-can
-can
-can
+Hong Kong has some of the most luxurious hotels in the
+Hong Kong hotels
+Hong Kong Hotel Reservation Center at the
+Hong Kong dollars, based on double
+
 ```
-3. -rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern. This is very useful because it can search the directory and txt, and return just the file name. 
+3. -rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern. 
+This is very useful because it can search the all the text file contain in the directory, and return just the file name. 
 
 command:
 ```
@@ -161,7 +154,8 @@ written_2/travel_guides/berlitz2/Algarve-History.txt
 written_2/travel_guides/berlitz2/Cuba-History.txt
 ```
 
-4. -rn: Searches recursively through subdirectories and precede each matching line with a line number. This is useful because it tells you the line number, which makes it easier for you to locate the line of txt with matching string. 
+4. -rn: Searches recursively through subdirectories and precede each matching line with a line number. 
+This is useful because it tells you the line number, which makes it easier for you to locate the line of txt with matching string. 
 
 command:
 ```
@@ -181,3 +175,7 @@ output:
 written_2/travel_guides/berlitz1/IntroMadrid.txt:13:        catch up to Spain’s more historic cities, including Seville, Toledo and
 written_2/travel_guides/berlitz1/IntroItaly.txt:81:        golden triangle of historic cities, the Assisi of St. Francis, the
 ```
+
+Citation:
+Vivek Gite. "How To Use grep Command In Linux / UNIX With Practical Examples". February 14, 2023 
+https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
