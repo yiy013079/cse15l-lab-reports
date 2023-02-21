@@ -95,6 +95,7 @@ written_2/travel_guides/berlitz2/Vallarta-History.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:37
 ```
+
 2. -o: Output the matched parts of a matching line. 
 This is useful because it directly returns the string you want to find. 
 command:
@@ -110,6 +111,7 @@ written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:replete
 written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt:replete 
 ```
 command:
+
 ```
 grep -o "Hong Kong.*" written_2/travel_guides/berlitz1/HandRHongKong.txt
 ```
