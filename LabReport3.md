@@ -1,5 +1,6 @@
 I choose the command grep
-1. -c: Output count of matching lines
+
+-c: Output count of matching lines
 This is useful if you want to find how many times a string appear in a txt. 
 command:
 ```
@@ -96,7 +97,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:9
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:37
 ```
 
-2. -o: Output the matched parts of a matching line. 
+-o: Output the matched parts of a matching line. 
 This is useful because it directly returns the string you want to find. 
 command:
 ```
@@ -123,7 +124,8 @@ Hong Kong Hotel Reservation Center at the
 Hong Kong dollars, based on double
 
 ```
-3. -rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern. 
+
+-rl: Searches recursively through subdirectories and returns only the names of the files that contain the pattern. 
 This is very useful because it can search the all the text file contain in the directory, and return just the file name. 
 
 command:
@@ -156,7 +158,8 @@ written_2/travel_guides/berlitz2/Algarve-History.txt
 written_2/travel_guides/berlitz2/Cuba-History.txt
 ```
 
-4. -rn: Searches recursively through subdirectories and precede each matching line with a line number. 
+
+-rn: Searches recursively through subdirectories and precede each matching line with a line number. 
 This is useful because it tells you the line number, which makes it easier for you to locate the line of txt with matching string. 
 
 command:
