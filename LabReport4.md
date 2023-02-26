@@ -50,7 +50,10 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 6. Commit and push the resulting change to your Github account
   <img width="772" alt="截屏2023-02-25 下午5 19 09" src="https://user-images.githubusercontent.com/122562034/221387100-56fdbea5-6355-43c2-98aa-583d92633960.png">
 <img width="706" alt="截屏2023-02-25 下午5 19 36" src="https://user-images.githubusercontent.com/122562034/221387113-02c5d422-0c3d-4476-a13c-e3f2c9bb288f.png">
+
+```
 Key Entered: 1. git add ListExamples.java <enter>
              2. git commit-m"Updated"<enter>
              3. git push <enter>
+```  
               
